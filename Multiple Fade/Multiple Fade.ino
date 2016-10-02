@@ -43,5 +43,5 @@ void loop() {
   }
   // wait for 30 milliseconds to see the dimming effect
   delay(30);
-
+// Editado de Fade por Benja Robles :D
 
