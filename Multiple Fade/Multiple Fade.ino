@@ -35,7 +35,7 @@ void loop() {
   analogWrite(led2, brightness);
 
   // change the brightness for next time through the loop:
-  brightness = brightness + fadeAmount;
+  brightness += fadeAmount;
 
   // reverse the direction of the fading at the ends of the fade:
   if (brightness <= 0 || brightness >= 255) {
